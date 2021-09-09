@@ -30,15 +30,15 @@ class Kalkulator(_angka1: Int, _angka2: Int) {
 }
 
 fun main() {
-    val kalkulator = Kalkulator(10, 3)
-    var hasil_jumlah = kalkulator.penjulahan()
+    val menghitung = Kalkulator(10, 3)
+    var hasil_jumlah = menghitung.penjulahan()
     println("Hasil Penjumlahan : $hasil_jumlah")
-    var hasil_kurang = kalkulator.pengurangan()
+    var hasil_kurang = menghitung.pengurangan()
     println("Hasil Pengurangan : $hasil_kurang")
-    var hasil_bagi = kalkulator.pembagian()
+    var hasil_bagi = menghitung.pembagian()
     println("Hasil Pembagian : $hasil_bagi")
-    var hasil_kali = kalkulator.perkalian()
+    var hasil_kali = menghitung.perkalian()
     println("Hasil Perkalian : $hasil_kali")
-    var hasil_modulus = kalkulator.modulus()
+    var hasil_modulus = menghitung.modulus()
     println("Hasil Modulus : $hasil_modulus")
 }

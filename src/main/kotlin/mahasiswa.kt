@@ -12,6 +12,6 @@ class Mahasiswa(_nama: String, _nim: String = "1821400092", _prodi: String = "In
 }
 
 fun main() {
-    val karim = Mahasiswa("Abdul Karim")
-    karim.tampil()
+    val manusia = Mahasiswa("Abdul Karim")
+    manusia.tampil()
 }
